@@ -18,7 +18,7 @@
         },
         {
             "tag": "goodbye",
-            "patterns": ["Bye", "See you later", "Goodbye"],
+            "patterns": ["Bye", "See you later", "Goodbye", "QUIT"],
             "responses": [
                 "See you later, thanks for visiting",
                 "Have a nice day",
