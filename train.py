@@ -56,12 +56,12 @@ class ChatDataset(Dataset):
 
 
 # HyperParameter
-batch_size = 8
-hidden_size = 8
+batch_size = 10
+hidden_size = 10
 output_size = len(tags)
 input_size = len(X_train[0])
 learning_rate = 0.001
-num_epochs = 1000
+num_epochs = 2000
 
 # print(input_size, len(all_words))
 # print(output_size, tags)
